@@ -124,35 +124,3 @@ def example_args_kwargs():
 	sum(10, 12, func_name="mySumFunc")
 
 example_args_kwargs()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
