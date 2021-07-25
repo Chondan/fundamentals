@@ -1,0 +1,26 @@
+process.on('message', message => {
+	const jsonReponse = isPrime(message.number);
+	process.send(jsonReponse);
+});
+
+function isPrime(number) {
+	const startTime = new Date();
+	let endTime = new Date();
+	let isPrime = true;
+	for (let i = 3; i < number; i++) {
+		if (number % i === 0) {
+			endTime = new Date();
+			isPrime = false;
+		}
+	}
+
+	if (isPrime) endTime = new Date();
+
+	return {
+		number,
+		isPrime,
+		time: endTime.getTime() - startTime.getTime()
+	}
+}
+
+module.exports = {isPrime};
