@@ -1,0 +1,16 @@
+{
+  "name": "rabbit-mq",
+  "version": "1.0.0",
+  "description": "- Additional Readings \t- [x] [RabbitMQ-Connection vs Channel](https://faun.pub/rabbitmq-connection-vs-channel-aed1188a7f3a) \t\t- Channels help us to perform operations in parallel.",
+  "main": "publisher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "node publisher.js",
+    "consume": "node consumer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
