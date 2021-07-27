@@ -1,0 +1,14 @@
+{
+  "name": "load-balancing",
+  "version": "1.0.0",
+  "description": "- Addtional Readings \t- [ ] [TCP vs HTTP(s) Load Balancing](https://medium.com/martinomburajr/distributed-computing-tcp-vs-http-s-load-balancing-7b3e9efc6167)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
