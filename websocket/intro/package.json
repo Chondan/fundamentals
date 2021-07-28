@@ -1,0 +1,14 @@
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "description": "- Additional Readings \t- [ ] [Cross-site WebSocket hijacking](https://portswigger.net/web-security/websockets/cross-site-websocket-hijacking) \t- [ ] [Cross-Site WebSocket Hijacking (CSWSH)](https://christian-schneider.net/CrossSiteWebSocketHijacking.html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "^1.0.34"
+  }
+}
