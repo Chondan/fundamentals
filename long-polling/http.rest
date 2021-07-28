@@ -1,0 +1,12 @@
+@host=http://localhost:3000
+
+// subscribe
+GET {{host}}/subscribe
+
+###
+
+// publish
+POST {{host}}/publish
+Content-Type: text/plain
+
+Hello World
