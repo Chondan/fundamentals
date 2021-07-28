@@ -5,3 +5,6 @@
 - [x] [resize() in cpp](https://www.geeksforgeeks.org/vector-resize-c-stl/)
 - [x] [accumulate() in cpp](https://www.geeksforgeeks.org/accumulate-and-partial_sum-in-c-stl-numeric-header/)
 - [ ] virtual function in cpp
+- [ ] [Network request](https://javascript.info/network)
+	- [ ] [Server Sent Events](https://javascript.info/server-sent-events)
+- [ ] [The Modern JavaScript Tutorial](https://javascript.info/)
